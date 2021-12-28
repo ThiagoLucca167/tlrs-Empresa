@@ -1,0 +1,70 @@
+@media(max-width:600px){
+    .card{
+        flex-direction: column!important;
+    }
+}
+
+
+:root{
+    --color-blue:#6c81cb;
+    --color-orange:#fdad19;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.supcontain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: #e2e6e999;
+}
+.row .suporte{
+    padding: 10px;
+}
+.row .suporte h1{
+    font-family: sans-serif;
+    font-weight: 700;
+    color: var(--color-blue);
+}
+.row .suporte p{
+    font-family: monospace;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: justify;
+    color: #21252978;
+}
+
+.cardop1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.tilte-reclamacaocard{
+color: var(--color-blue);
+}
+
+.card-explication{
+    font-family: sans-serif;
+    color: #858585;
+    text-align: justify;
+}
+
+.linkcard{
+    color: var(--color-orange);
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.informacao-extra{
+    padding: 10px;
+}
+
+.informacao-dados{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: var(--color-blue);
+}

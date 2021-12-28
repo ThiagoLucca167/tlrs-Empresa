@@ -1,0 +1,31 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.politica{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.aviso{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.inte{
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: lighter;
+}
+
+.ppoliticaaviso{
+    color: #766e6e;
+    font-size: 1.1rem;
+}
