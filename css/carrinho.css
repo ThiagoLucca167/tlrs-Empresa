@@ -1,0 +1,57 @@
+@media (max-width:700px){
+    .cont-card-empr {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .emprs {
+        width: 80%!important;
+    }
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.empr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.cont-card-empr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emprs{
+    width: 30%;
+}
+
+#img-emprestimo{
+    width: 100%;
+}
+
+.text-empr{
+    font-family: monospace;
+    text-align: justify;  
+}
+
+.carro-title{
+    font-family: monospace;
+    letter-spacing: 5px;
+    color: #28a745;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+.areainput{
+    width: 75%;
+}
+
+.areainput input{
+    width: 100%;
+}
